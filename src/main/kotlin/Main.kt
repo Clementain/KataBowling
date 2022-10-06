@@ -42,7 +42,7 @@ fun series(pins: List<Int>): List<Int> {
 
     var c = 0
     var i = 0
-    while (i < pins.size && c < score.size) {
+    while (c < score.size) {
 
         if (pins[i] == 10) {
 
