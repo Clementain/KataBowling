@@ -6,6 +6,7 @@ fun main() {
     val pins2 = listOf(10, 10, 10, 0, 0, 4, 6, 5, 5, 10, 1, 3, 7, 3, 1, 1)
     val pins3 = listOf(10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10)
     val pins4 = listOf(0, 0, 1, 0, 0, 8, 0, 0, 7, 0, 0, 10, 7, 0, 5, 4, 9, 1, 6, 2)
+    val pins5=listOf(5,5,6,4,3,7,0,10,2,8,9,1,4,6,7,3,3,7,0,10,10)
 
     println("Frames:")
     println(series(pins))
@@ -27,6 +28,12 @@ fun main() {
 
     println("Frames:")
     println(series(pins4))
+    println("Total: ${score.last()}\n")
+
+    clean()
+
+    println("Frames:")
+    println(series(pins5))
     println("Total: ${score.last()}\n")
 
 }
